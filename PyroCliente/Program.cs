@@ -10,7 +10,6 @@ class Program
 
             // realiza a invocação remota dos métodos
             Console.WriteLine("<<<<< teste função getNumeroSorte() >>>>>>>>>");
-            something.call("getNumeroSorte"); // Este não exibe o resultado
             Console.WriteLine("Seu número da sorte é: {0}", something.call("getNumeroSorte"));
 
             Console.WriteLine("<<<<< teste função getSoma() >>>>>>>>>");
